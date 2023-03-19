@@ -7,7 +7,7 @@ body {
 :root {
 }
 
-.logo-link {
+.link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -32,4 +32,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.link {
 }

@@ -54,3 +54,11 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
+
+.ada:hover {
+  color: #404bbf;
+}
+
+.ada:focus {
+  color: #404bbf;
+}

@@ -33,6 +33,14 @@ body {
   color: #2e2f42;
 }
 
+.header-nav-link:hover {
+  color: #404bbf;
+}
+
+.header-nav-link:focus {
+  color: #404bbf;
+}
+
 .link {
   text-decoration: none;
 }

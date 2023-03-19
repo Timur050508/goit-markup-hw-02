@@ -48,6 +48,9 @@ body {
 .address {
   font-style: normal;
 }
-.ad {
+.ada {
   color: #434455;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }

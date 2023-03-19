@@ -116,3 +116,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.last_sec {
+  background-color: #f4f4fd;
+}

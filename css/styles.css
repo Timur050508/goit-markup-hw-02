@@ -144,9 +144,11 @@ body {
 }
 
 .but:hover {
+  color: #ffffff;
   background-color: #404bbf;
 }
 
 .but:focus {
+  color: #ffffff;
   background-color: #404bbf;
 }

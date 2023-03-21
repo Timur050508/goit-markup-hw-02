@@ -1,10 +1,16 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+:root {
+  --stcolor: #434455;
+  --whcolor: #ffffff;
+  --pcolor: #4d5ae5;
+  --bcolor: #2e2f42;
+  --pucolor: #404bbf;
+  --wwcolor: #f4f4fd;
 }
 
-:root {
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--stcolor);
+  background-color: var(--whcolor);
 }
 
 .logo-link {
@@ -14,11 +20,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--pcolor);
 }
 
 .studio {
-  color: #2e2f42;
+  color: var(--bcolor);
 }
 
 .list {
@@ -30,15 +36,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--bcolor);
 }
 
 .header-nav-link:hover {
-  color: #404bbf;
+  color: var(--pucolor);
 }
 
 .header-nav-link:focus {
-  color: #404bbf;
+  color: var(--pucolor);
 }
 
 .link {
@@ -49,22 +55,22 @@ body {
   font-style: normal;
 }
 .ada {
-  color: #434455;
+  color: var(--stcolor);
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
 }
 
 .ada:hover {
-  color: #404bbf;
+  color: var(--pucolor);
 }
 
 .ada:focus {
-  color: #404bbf;
+  color: var(--pucolor);
 }
 
 .first_section {
-  background-color: #2e2f42;
+  background-color: var(--bcolor);
 }
 
 .sth {
@@ -72,25 +78,25 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--whcolor);
 }
 
 .button {
-  background-color: #4d5ae5;
+  background-color: var(--pcolor);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--whcolor);
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #404bbf;
+  background-color: var(--pucolor);
 }
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--pucolor);
 }
 
 .zagovolok {
@@ -98,14 +104,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--bcolor);
 }
 
 .petuh {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--stcolor);
 }
 
 .what {
@@ -114,22 +120,22 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--bcolor);
 }
 
 .last_sec {
-  background-color: #f4f4fd;
+  background-color: var(--wwcolor);
 }
 
 .pngg {
-  background-color: #ffffff;
+  background-color: var(--whcolor);
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--bcolor);
 }
 
 .studios {
-  color: #f4f4fd;
+  color: var(--wwcolor);
 }
 
 .but {
@@ -138,19 +144,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--pcolor);
+  background-color: var(--wwcolor);
   cursor: pointer;
 }
 
 .but:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--whcolor);
+  background-color: var(--pucolor);
 }
 
 .but:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--whcolor);
+  background-color: var(--pucolor);
 }
 
 .port_li {
@@ -158,16 +164,26 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--bcolor);
 }
 
 .port_p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--stcolor);
 }
 
 .port_footer {
-  background-color: #2e2f42;
+  background-color: var(--bcolor);
+}
+
+.last {
+  font-family: Roboto, sans-serif;
+  color: var(--wwcolor);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
 }
